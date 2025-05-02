@@ -1,0 +1,98 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: rgb(255, 234, 216);
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+.image-omelette {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.h1title {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  text-align: left;
+  color: #333;
+}
+.dish-description {
+  font-size: 15px;
+  color: #555;
+  margin: 10px 0;
+}
+.prep-container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 243, 253);
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 5px;
+}
+ul.prep-list {
+  list-style-type: circle;
+  color: #702d4d;
+  font-size: 14px;
+  margin: 5px 0;
+}
+ul.ingredients-list {
+  list-style-type: circle;
+  color: #702d4d;
+  font-size: 14px;
+  margin: 5px 0;
+}
+ul.instructions-list {
+  list-style-type: decimal;
+  color: #702d4d;
+  font-size: 14px;
+  margin: 5px 0;
+}
+li {
+  margin: 5px 0;
+}
+li span {
+  position: relative;
+  right: -9px;
+}
+.container-title {
+  font-size: 18px;
+  color: #702d4d;
+  margin-left: 15px;
+  font-weight: bold;
+}
+h2 {
+  font-family: "dancing script", cursive;
+  font-size: 2rem;
+}
+.ingredients-container {
+  margin: 20px 0;
+}
+hr {
+  margin: 20px 0;
+  border: thin 1px #702d4d;
+}
+tr:not(.last-row) {
+  border-bottom: solid 1px #ddd;
+}
+td {
+  color: #555;
+  margin-left: 10px;
+  padding: 10px 40px;
+}
+td.val {
+  text-align: right;
+  font-weight: 800;
+  color: #702d4d;
+}
